@@ -82,7 +82,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { data } = await api.post("/api/front/contact", formData);
+      const { data } = await api.post("/api/front/contact_us", formData);
       toast.success("تم إرسال الرسالة بنجاح!");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {

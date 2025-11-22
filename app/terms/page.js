@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutPage = () => {
   const homeData = useHomeStore((state) => state.homeData);
-  const social = homeData.data?.social || [];
+  const pages = homeData.data?.pages || [];
 
   return (
     <section
@@ -17,9 +17,7 @@ const AboutPage = () => {
         الشروط والأحكام
       </h1>
       <p className="text-lg text-white leading-relaxed max-w-3xl text-center drop-shadow-md">
-        نحن شركة رائدة في تقديم أفضل الخدمات لعملائنا، نهدف دائمًا إلى تقديم
-        حلول مبتكرة وعملية تلبي احتياجات السوق وتحقق رضا العملاء. خبرتنا الطويلة
-        وكفاءتنا العالية تجعلنا الخيار الأمثل لأي مشروع أو تعاون.
+        {pages.terms_conditions}
       </p>
     </section>
   );
