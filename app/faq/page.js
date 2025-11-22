@@ -13,6 +13,9 @@ const AboutPage = () => {
         background: "linear-gradient(135deg, #e11f24 0%, #851317 100%)",
       }}
     >
+
+
+      
       <h1 className="text-5xl font-extrabold text-white mb-6 text-center drop-shadow-lg">
         الأسئلة الشائعة
       </h1>
