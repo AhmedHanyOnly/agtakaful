@@ -59,7 +59,7 @@ const AppFooter = () => {
             <p className="text-sm text-gray-700 text-center lg:text-left">
               © 2025 Takaful جميع الحقوق محفوظة. القالب من قبل
               <a
-                href="https://www.pixelrocket.store"
+                href=""
                 className="text-[var(--color-primary)] hover:underline"
               >
                 Takaful
