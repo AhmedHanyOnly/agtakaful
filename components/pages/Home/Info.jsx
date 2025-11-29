@@ -89,7 +89,7 @@ export const Info = ({
           <div className="relative w-full max-w-md">
             {imagesOne && (
               <div className="relative w-2/3 border-4 border-white shadow-lg z-10 rounded-2xl overflow-hidden">
-                <image
+                <img
                   src={front_section.image_1}
                   alt="صورة رئيسية"
                   width={500}
@@ -101,7 +101,7 @@ export const Info = ({
 
             {imagesTwo && (
               <div className="absolute top-40 left-10 w-2/3 border-4 border-white shadow-lg z-20 rounded-2xl overflow-hidden">
-                <image
+                <img
                   src={front_section.image_2}
                   alt="صورة ثانية"
                   width={500}
@@ -113,7 +113,7 @@ export const Info = ({
 
             {imagesThree && (
               <div className="absolute -top-8 -left-4 w-1/2 border-4 border-white shadow-lg z-0 rounded-2xl overflow-hidden">
-                <image
+                <img
                   src={front_section.image_3}
                   alt="صورة ثالثة"
                   width={500}

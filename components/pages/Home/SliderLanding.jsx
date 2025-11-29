@@ -75,11 +75,11 @@ export default function SliderLanding() {
           }`}
           style={{ backgroundColor: "#000" }} // خلفية داكنة تمنع الأبيض المؤقت
         >
-          <image
+          <img
             src={slide.image}
             alt={slide.title}
             fill
-            className="object-cover"
+            className="absolute inset-0 w-full h-full object-cover z-0"
             priority={index === 0}
           />
           <div className="absolute inset-0 bg-black/40" />
