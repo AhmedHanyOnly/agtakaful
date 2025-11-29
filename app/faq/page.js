@@ -20,7 +20,7 @@ const AboutPage = () => {
         الأسئلة الشائعة
       </h1>
       <p className="text-lg text-white leading-relaxed max-w-3xl text-center drop-shadow-md">
-        {pages["faq,"]}
+        {pages["faq"]}
       </p>
     </section>
   );
